@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <span class="logo">SATHYA G</span>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <button>
+                <a href="C:\Users\gsath\Desktop\html task 1\Sathya narayanan g cv.pdf">DOWNLOAD CV</a>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="thor-section">
+            <div>
+                <h4>HI THERE</h4>
+                <h1 class="thor-section__title">I'M SATHYA NARAYANAN</h1>
+                <h2 class="thor-section__sub">Junior Web Developer</h2>
+                <p class="thor-section__desc">Ambitious engineering student proficient in HTML, CSS, JavaScript, and backend languages. Actively seeking internships to apply theoretical knowledge and contribute to real-world projects. Eager to connect with tech enthusiasts and professionals for collaboration.</p>         
+                <br>
+                <ul class="thor-section__icon">
+                    <li><i class="fab fa-instagram"></i></li>
+                    <li><i class="fab fa-linkedin"></i></li>
+                    <li><i class="fab fa-twitter"></i></li>
+                    <li><i class="fab fa-snapchat"></i></li>
+                </ul>
+                <button onclick="scrollToContact()">Contact</button>
+            </div>
+            <div>
+                <img src="C:\Users\gsath\Desktop\html task 1\picture.jpg" alt="picture" width="300">
+            </div>
+        </section>
+    </main>
+
+    <section class="skills-background" id="contactSection">
+        <div class="content">
+            <div class="text">
+                <h2 class="skills-color">Skills</h2>
+                <h3>Frontend Languages:</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+                <h3>Backend Languages:</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>C</li>
+                </ul>
+                <h3>Databases:</h3>
+                <ul>
+                    <li>Microsoft Excel</li>
+                    <li>MySql</li>
+                </ul>
+            </div>
+            <div class="image">
+                <img src="C:\Users\gsath\Desktop\html task 1\logo.avif" alt="Image" width="300">
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2 class="Project-name" style="color: red;">Projects</h2>
+        <div class="project">
+            <div class="project-description">
+                <h3>Banking app</h3>
+                <p>The Java Banking App offers secure access to banking services with features including account management, funds transfer, bill payments, and mobile deposits. It ensures user authentication and implements robust security measures such as encryption and multi-factor authentication.</p> 
+                 <p>The app provides convenience through push notifications for account activities and access to customer support services.</p>
+                    <h4>BASED ON JAVA PROGRAMMING</h4>
+            </div>
+            <div class="project-image">
+                <img src="C:\Users\gsath\Desktop\html task 1\download (1).jpg" alt="Project Image" width="200">
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <p>Email:<a href="mailto:gsathya131104@gmail.com">gsathya131104@gmail.com</a></p>
+            <p>Instagram:<a href="https://www.instagram.com/sathyag_13/">sathyag_13</a></p>
+            <p>linkedin:<a href="https://www.linkedin.com/in/sathya-narayanan-g-315932265/">sathya-narayanan-g</a></p>
+        </div>
+    </section>
+    
+    <script>
+        function scrollToContact() {
+            document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
